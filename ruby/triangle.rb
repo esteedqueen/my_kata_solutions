@@ -3,7 +3,8 @@
 # The method should return true if a triangle can be built with the sides of given length and false in any other case.
 # (In this case, all triangles must have surface greater than 0 to be accepted).
 
-# TIL - the sum of any 2 sides must be greater than the third side
+# Solution
+# TIL - the sum of any 2 sides of a triangle must be greater than the third side
 
 def isTriangle(a,b,c)
   if (a > 0) || (b > 0) || (c > 0)
@@ -18,7 +19,7 @@ def isTriangle(a,b,c)
 end
 
 
-# Sample Tests
+# Test Case(s)
 
 Test.describe("isTriangle") do
   Test.it("Public tests") do
